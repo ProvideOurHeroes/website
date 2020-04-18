@@ -1,9 +1,9 @@
 import Typography from "typography";
 
 const typography = new Typography({
-  baseFontSize: "20em",
+  // baseFontSize: "20px",
   baseLineHeight: 1.45,
-  // headerFontFamily: ["Futura PT"],
+  headerFontFamily: ["Roboto"],
   // bodyFontFamily: ["Futura PT"],
   // headerColor: "red",
   // bodyColor: "blue"
