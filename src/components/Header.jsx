@@ -4,7 +4,7 @@ import "../styles/HeaderCSS.css";
 
 export default function Header(props) { 
     return (
-<Navbar bg="white" expand="lg">
+<Navbar style={{paddingBottom: "0", paddingTop: "0"}} bg="white" expand="lg" sticky="top">
   <Navbar.Brand bsPrefix="navbar-text-main" href="/">Provide Our Heroes</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">

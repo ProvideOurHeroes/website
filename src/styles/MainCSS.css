@@ -1,0 +1,26 @@
+.heading {
+    background-color: #3E69DC;
+    padding: 2em;
+}
+
+.divider {
+    max-width: 30.25rem;
+    border-width: 0.2rem;
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.change-btn {
+    transition: all 200ms linear 0s;
+}
+
+.change-btn:hover {
+    background-color: #3E69DC;
+    border-color: white;
+    color: white;
+}
+
+.facts {
+    background-color: white;
+}
