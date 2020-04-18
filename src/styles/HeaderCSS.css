@@ -1,0 +1,32 @@
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: none;
+}
+
+.dropdown-toggle:hover {
+    color: #3E69DC !important;
+}
+
+.navbar-text-main {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #3E69DC;
+}
+
+.navbar-text-main:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-text-link {
+    color: black !important;
+}
+
+.navbar-text-link:hover {
+    color: #3E69DC !important;
+}

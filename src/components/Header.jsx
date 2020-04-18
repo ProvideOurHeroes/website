@@ -1,26 +1,24 @@
 import React from "react";
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
+import "../styles/HeaderCSS.css";
 
-export default (props) => (
-<Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+export default function Header(props) { 
+    return (
+<Navbar bg="white" expand="lg">
+  <Navbar.Brand bsPrefix="navbar-text-main" href="/">Provide Our Heroes</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Link</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+    <Nav className="ml-auto" style={{padding: 20}}>
+      <Nav.Link className="navbar-text-link" href="/request-ppe">Request PPE</Nav.Link>
+      <Nav.Link className="navbar-text-link" href="/volunteer">Volunteer</Nav.Link>
+      <Nav.Link className="navbar-text-link" href="/donate">Donate</Nav.Link>
+      <Nav.Link className="navbar-text-link" href="/contact">Contact</Nav.Link>
+      <NavDropdown active className="navbar-text-link" title="About Us" id="nav-dropdown">
+        <NavDropdown.Item className="navbar-text-link" href="/current-metrics">Current Metrics</NavDropdown.Item>
+        <NavDropdown.Item className="navbar-text-link" href="/faq">FAQ</NavDropdown.Item>
+        <NavDropdown.Item className="navbar-text-link" href="/our-team">Our Team</NavDropdown.Item>
       </NavDropdown>
     </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
   </Navbar.Collapse>
 </Navbar>
-)
+);}
