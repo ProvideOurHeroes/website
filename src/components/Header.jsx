@@ -14,9 +14,9 @@ export default function Header(props) {
       <Nav.Link className="navbar-text-link" href="/donate">Donate</Nav.Link>
       <Nav.Link className="navbar-text-link" href="/contact">Contact</Nav.Link>
       <NavDropdown active className="navbar-text-link" title="About Us" id="nav-dropdown">
-        <NavDropdown.Item className="navbar-text-link" href="/current-metrics">Current Metrics</NavDropdown.Item>
-        <NavDropdown.Item className="navbar-text-link" href="/faq">FAQ</NavDropdown.Item>
-        <NavDropdown.Item className="navbar-text-link" href="/our-team">Our Team</NavDropdown.Item>
+        <NavDropdown.Item className="navbar-dropdown-text" href="/current-metrics">Current Metrics</NavDropdown.Item>
+        <NavDropdown.Item className="navbar-dropdown-text" href="/faq">FAQ</NavDropdown.Item>
+        <NavDropdown.Item className="navbar-dropdown-text" href="/our-team">Our Team</NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>

@@ -1,15 +1,13 @@
 import React from "react"
 import Header from "../components/Header";
-import About from "../components/index/Heading";
 
-const IndexPage = () => (
+const RequestPPE = () => (
     <div>
     <Header />
-    <About />
-        <h1>Hi people</h1>
+        <h1>Hi request</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
     </div>
 )
 
-export default IndexPage;
+export default RequestPPE;

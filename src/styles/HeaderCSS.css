@@ -15,6 +15,7 @@
 .navbar-text-main {
     font-size: 1.3em;
     font-weight: bold;
+    transition: all 300ms linear 0s;
     color: #3E69DC;
 }
 
@@ -23,10 +24,33 @@
     text-decoration: none;
 }
 
-.navbar-text-link {
+/* .navbar-text-link {
     color: black !important;
 }
 
 .navbar-text-link:hover {
     color: #3E69DC !important;
+} */
+
+.navbar-text-link {
+    color: black !important;
+    border-bottom: 1px solid transparent;
+    transition: all 300ms linear 0s;
+    text-decoration: none;
+}
+.navbar-text-link:hover {
+    color: #3E69DC !important;
+    border-bottom: 1px solid #3E69DC;
+}
+
+.navbar-dropdown-text {
+    color: black !important;
+    border-bottom: 1px solid transparent;
+    transition: all 300ms linear 0s;
+    text-decoration: none;   
+}
+
+.navbar-dropdown-text:hover {
+    color: #3E69DC !important;
+    /* border-bottom: 1px solid #3E69DC; */
 }
