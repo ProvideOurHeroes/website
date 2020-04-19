@@ -4,11 +4,10 @@ import "../../styles/MainCSS.css";
 import { ArrowRight } from "react-bootstrap-icons";
 import Favicon from "react-favicon";
 
-export default function Facts() {
-    return (<section class="page-section facts" id="facts">
+export default function CurrentProgress() {
+    return (<section>
         <div class="container">
-            <h2 class="text-center mt-0">The Facts</h2>
-            <hr class="divider my-4" />
+            <h2 class="text-center mt-0"></h2>
             <div class="row">
                 <div class="col-lg-4 col-md-8 text-center">
                     <div class="mt-5">

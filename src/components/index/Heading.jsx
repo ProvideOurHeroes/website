@@ -3,7 +3,7 @@ import {Button} from "react-bootstrap";
 import "../../styles/MainCSS.css";
 
 export default function Heading() {
-  return (<section class="page-section heading" id="heading">
+  return (<section class="heading" id="heading">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-15 text-center">
@@ -20,7 +20,7 @@ export default function Heading() {
           </div>
           </div>
           <p class="text-white mb-4 responsive-body-text">Healthcare workers are at the front lines of the pandemic. To help reduce the shortage of Personal Protective Equipment (PPE), we began producing low-cost equipment to frontline healthcare workers.</p>
-          <Button href="/request-ppe" bsPrefix="btn btn-light btn-xl change-btn"><strong>REQUEST PPE</strong></Button>
+          <Button size="md" href="/request-ppe" className="change-btn"><strong>REQUEST PPE</strong></Button>
         </div>
       </div>
     </div>

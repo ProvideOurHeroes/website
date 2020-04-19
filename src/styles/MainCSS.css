@@ -1,3 +1,17 @@
+.page-section {
+    padding: 2.5em;
+}
+
+.blue-font {
+    color: #3E69DC;
+    text-align: center;
+}
+
+.blue-divider {
+    border-color: blue !important;
+}
+
+/* Mostly Heading CSS */
 .heading {
     background-color: #3E69DC;
     padding: 2em;
@@ -8,7 +22,7 @@
 }
 
 .responsive-body-text {
-    font-size: 1.5em;
+    font-size: calc(18px + 0.5vw);
 }
 
 .divider {
@@ -20,6 +34,9 @@
 }
 
 .change-btn {
+    color: #3E69DC;
+    background-color: white;
+    border-color: white;
     transition: all 200ms linear 0s;
 }
 
@@ -34,6 +51,24 @@
     margin-right: 10vw;
 }
 
-.facts {
-    background-color: white;
+/* Mostly DonationInfo CSS */
+.text-grow {
+    transition: all .2s ease-in-out; 
+}
+.text-grow:hover {
+    color:black;
+    font-size:1.1em;
+}
+
+.change-btn-inverse {
+    background-color: #3E69DC;
+    color: white;
+    transition: all 200ms linear 0s;
+    margin: 20px;
+    /* border-radius: %; */
+}
+.change-btn-inverse:hover {
+    color: #3E69DC;
+    background-color: black;
+    border-color: black;
 }
