@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from "react-bootstrap";
-import "../../styles/MainCSS.css";
+import "../../styles/IndexCSS.css";
 
 export default function Heading() {
   return (<section class="heading" id="heading">

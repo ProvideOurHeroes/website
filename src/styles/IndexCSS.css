@@ -1,0 +1,182 @@
+.page-section {
+    padding: 2.5em;
+}
+
+.blue-font {
+    color: black;
+    text-align: center;
+}
+
+.blue-divider {
+    border-color: blue !important;
+}
+
+/* Mostly Heading CSS */
+.heading {
+    color: white;
+    background-color: #3E69DC;
+    padding: 2em;
+}
+
+.responsive-header-text {
+    font-size: 2.4em;
+}
+
+.responsive-body-text {
+    font-size: calc(18px + 0.5vw);
+}
+
+.divider {
+    max-width: 30.25rem;
+    border-width: 0.2rem;
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.change-btn {
+    color: #3E69DC;
+    background-color: white;
+    border-color: white;
+    transition: all 200ms linear 0s;
+}
+
+.change-btn:hover {
+    background-color: #3E69DC;
+    border-color: white;
+    color: white;
+}
+
+.adjust-margins {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* Mostly DonationInfo CSS */
+.text-grow {
+    transition: all .2s ease-in-out; 
+}
+.text-grow:hover {
+    color:#3E69DC;
+    font-size:1.1em;
+}
+
+.change-btn-inverse {
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: all 200ms linear 0s;
+    margin: 20px;
+    /* border-radius: %; */
+}
+.change-btn-inverse:hover {
+    color: white;
+    background-color: #3E69DC;
+    border-color: #3E69DC;
+}
+
+/* Mostly CSS for CurrentProgress */
+.current-progress {
+    color: white;
+    background-color: #3E69DC;
+    padding-top: calc(20px + .9vw);
+    padding-left:  calc(20px + 10vw);
+    padding-right:  calc(20px + 10vw);
+    padding-bottom:  calc(20px + .9vw);
+}
+.current-progress h1 {
+
+}
+
+.current-progress h2 {
+    font-size: calc(10px + 5vw);
+}
+
+.current-progress p {
+    font-size: calc(20px + 0.5vw);
+}
+.current-progress h1{
+    /* styling stuff */
+    font-size: calc(20px + 5vw);
+    color: white;
+}
+.current-progress h1:hover {
+
+color: rgba(0, 0, 0, 0.6);
+font-size: calc(25px + 5vw);
+
+  background: -webkit-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
+  background: -moz-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
+  background: gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  -webkit-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: black;
+}
+
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@-ms-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import {Button} from "react-bootstrap";
+import "../../styles/IndexCSS.css";
 
 export default function DonationInfo() {
     return (<section class="page-section blue-font">
