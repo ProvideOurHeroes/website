@@ -5,11 +5,18 @@
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    background-color: none;
 }
 
 .dropdown-toggle:hover {
     color: #3E69DC !important;
+}
+
+.dropdown-item:focus {
+    background-color: none;
+} 
+
+.dropdown-toggle {
+    color: black !important;
 }
 
 .navbar-text-main {

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
+import {Navbar, Nav, NavDropdown} from "react-bootstrap";
 import "../styles/HeaderCSS.css";
 
 export default function Header(props) { 
@@ -11,9 +11,10 @@ export default function Header(props) {
     <Nav className="ml-auto" style={{padding: 20}}>
       <Nav.Link className="navbar-text-link" href="/request-ppe">Request PPE</Nav.Link>
       <Nav.Link className="navbar-text-link" href="/volunteer">Volunteer</Nav.Link>
-      <Nav.Link className="navbar-text-link" href="/donate">Donate</Nav.Link>
+      <Nav.Link className="navbar-text-link" target="_blank" href="https://www.gofundme.com/f/provide-our-heroes-ppe-for-hospitals?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet">Donate</Nav.Link>
       <Nav.Link className="navbar-text-link" href="/contact">Contact</Nav.Link>
-      <NavDropdown active className="navbar-text-link" title="About Us" id="nav-dropdown">
+      <NavDropdown className="navbar-text-link" title="More Info" id="nav-dropdown">
+        <NavDropdown.Item className="navbar-dropdown-text" href="/about-us">About Us</NavDropdown.Item>
         <NavDropdown.Item className="navbar-dropdown-text" href="/current-metrics">Current Metrics</NavDropdown.Item>
         <NavDropdown.Item className="navbar-dropdown-text" href="/faq">FAQ</NavDropdown.Item>
         <NavDropdown.Item className="navbar-dropdown-text" href="/our-team">Our Team</NavDropdown.Item>
