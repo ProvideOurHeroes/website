@@ -1,5 +1,6 @@
 import React from "react"
 import { navigateTo } from "gatsby-link";
+import Recaptcha from "react-google-recaptcha";
 import Header from "../components/Header";
 
 const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
@@ -88,7 +89,14 @@ class RequestPPE extends React.Component {
               </select>
             </label>
           </p>
-          <input type="submit" value="Submit" />
+          <Recaptcha
+            ref="recaptcha"
+            sitekey={RECAPTCHA_KEY}
+            onChange={this.handleRecaptcha}
+          />
+          <p>
+            <button type="submit">Submit</button>
+          </p>
         </form>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
