@@ -1,13 +1,13 @@
 import React from "react"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import AboutUsPage from "../components/more-info/AboutUsPage";
+import AboutUsComponent from "../components/more-info/AboutUsComponent";
 
 
 const AboutUs = () => (
     <div>
     <Header />
-    <AboutUsPage />
+    <AboutUsComponent />
     <Footer />
     </div>
 )

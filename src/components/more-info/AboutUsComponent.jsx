@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/MoreInfoCSS.css";
 
-export default function AboutUsPage() {
+export default function AboutUsComponent() {
     return (<div class="container about-us-page main-layout">
         <h1><strong>About Us</strong></h1>
         <p>We are team of students, alumni, and engineers based in the Greater Houston Area that felt helpless with the fight against this pandemic.</p>
