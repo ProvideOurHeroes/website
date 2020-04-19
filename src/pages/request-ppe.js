@@ -5,38 +5,44 @@ import Header from "../components/Header";
 const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
 
 function encode(data) {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
 }
 
-handleChange = e => {
-  this.setState({ [e.target.name]: e.target.value });
-};
+class RequestPPE extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-handleRecaptcha = value => {
-  this.setState({ "g-recaptcha-response": value });
-};
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
 
-handleSubmit = e => {
-  e.preventDefault();
-  const form = e.target;
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: encode({
-      "form-name": form.getAttribute("name"),
-      ...this.state
+  handleRecaptcha = value => {
+    this.setState({ "g-recaptcha-response": value });
+  };
+
+  handleSubmit = e => {
+    e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...this.state
+      })
     })
-  })
-  .then(() => navigateTo(form.getAttribute("action")))
-  .catch(error => alert(error));
-};
+    .then(() => navigateTo(form.getAttribute("action")))
+    .catch(error => alert(error));
+  };
 
-const RequestPPE = () => (
-
-    <div>
-    <Header />
+  render() {
+    return (
+      <div>
+      <Header />
         <h1>Hi request</h1>
         <form 
           name="request-ppe"
@@ -47,7 +53,7 @@ const RequestPPE = () => (
           onSubmit={this.handleSubmit}
         >
           <noscript>
-              <p>This form won't work with JavaScript disabled.</p>
+            <p>This form won't work with JavaScript disabled.</p>
           </noscript>
           <p>
             <label>
@@ -82,7 +88,9 @@ const RequestPPE = () => (
         </form>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
-    </div>
-)
+      </div>
+    );
+  }
+}
 
 export default RequestPPE;
