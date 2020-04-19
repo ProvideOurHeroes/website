@@ -203,3 +203,28 @@ color: rgba(0, 0, 0, 0.6);
     font-size: calc(15px + 0.5vw);
     font-style: italic;
 }
+
+/* Sponsors */
+.sponsors {
+    color: black;
+    padding: calc(20px + 3vw);
+    padding-left: calc(20px + 5vw);
+    padding-right: calc(20px + 5vw);
+}
+
+.sponsors h2 {
+    font-size: calc(20px + 2vw);
+}
+
+.sponsors-info {
+    font-size: calc(20px + 1vw);
+}
+
+.sponsors-info ul li a {
+    color: black;
+    text-decoration: underline;
+}
+
+.sponsors-info ul li a:hover {
+    color: #3E69DC;
+}
