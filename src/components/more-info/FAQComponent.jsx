@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/MoreInfoCSS.css";
 
 export default function FAQComponent() {
-    return (<div class="container about-us-page main-layout">
+    return (<div className="container about-us-page main-layout">
         <h1><strong>Frequently Asked Questions</strong></h1>
         <p><strong>This page contains Frequently Asked Questions about Provide Our Heroes.</strong> If you still have questions, feel free to email: <a className="email-info" href="mailto:contact@provideourheroes.com">contact@provideourheroes.com</a></p>
         <p>Q: What does PPE stand for?</p>

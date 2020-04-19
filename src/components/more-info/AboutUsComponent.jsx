@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/MoreInfoCSS.css";
 
 export default function AboutUsComponent() {
-    return (<div class="container about-us-page main-layout">
+    return (<div className="container about-us-page main-layout">
         <h1><strong>About Us</strong></h1>
         <p>We are team of students, alumni, and engineers based in the Greater Houston Area that felt helpless with the fight against this pandemic.</p>
         <p>We realized we could put our skills to work by organizing this project and finding the right partners to do so. This project was started in April 2020.</p>

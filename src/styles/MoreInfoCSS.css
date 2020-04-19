@@ -26,6 +26,11 @@
     text-decoration: underline !important;
 }
 
+.about-us-page a:hover {
+    color: #3E69DC !important;
+    text-decoration: underline !important;
+}
+
 /* Mostly FAQ CSS */
 .email-info {
     font-style: italic;
