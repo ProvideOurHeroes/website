@@ -15,6 +15,7 @@
     "react-bootstrap-icons": "^1.0.1-alpha3",
     "react-dom": "^16.13.1",
     "react-favicon": "^0.0.18",
+    "react-google-recaptcha": "^2.0.1",
     "react-icons": "^3.9.0",
     "react-scripts": "3.4.1",
     "react-typography": "^0.16.19",
