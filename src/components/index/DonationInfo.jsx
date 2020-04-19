@@ -3,7 +3,7 @@ import {Button} from "react-bootstrap";
 import "../../styles/IndexCSS.css";
 
 export default function DonationInfo() {
-    return (<section class="page-section blue-font">
+    return (<section class="page-section black-font">
         <div class="container">
         <h2 class="text-center mt-0 responsive-header-text">We Need Your Help</h2>
         <p class="responsive-body-text">Right now, we can make <strong class="text-grow">150 face shields/day</strong>. In addition to face shields, we have the supply chain<br/> in place to produce other PPE Equipment such as <strong class="text-grow">Intubation/Aerosol Boxes</strong>. With your help we can <strong class="text-grow">accelerate</strong> this effort considerably.</p>

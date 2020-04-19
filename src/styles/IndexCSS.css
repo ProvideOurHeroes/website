@@ -2,7 +2,7 @@
     padding: 2.5em;
 }
 
-.blue-font {
+.black-font {
     color: black;
     text-align: center;
 }
@@ -103,7 +103,6 @@
 .current-progress h1:hover {
 
 color: rgba(0, 0, 0, 0.6);
-font-size: calc(25px + 5vw);
 
   background: -webkit-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
   background: -moz-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
@@ -179,4 +178,14 @@ font-size: calc(25px + 5vw);
   100% {
     background-position: top right;
   }
+}
+
+/* Mostly CSS for OurResources */
+.resources {
+    padding-top: calc(15px + 5vw);
+}
+
+.resources-body-padding {
+    padding-left: 2em;
+    padding-right: 2em;
 }

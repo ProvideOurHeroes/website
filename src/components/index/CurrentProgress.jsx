@@ -12,7 +12,7 @@ export default function CurrentProgress() {
             <div class="row">
                 <div class="col-lg-4 text-left">
                     <div class="mt-5">
-                        <h1 class="responsive-header-text"><strong>1200+</strong></h1>
+                        <h1 class="responsive-header-text"><strong>1500+</strong></h1>
                         <p class="mb-0">Face Shields Shipped</p>
                     </div>
                 </div>
