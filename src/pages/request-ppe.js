@@ -22,7 +22,11 @@ class RequestPPE extends React.Component {
   };
 
   handleRecaptcha = value => {
-    this.setState({ "g-recaptcha-response": value });
+    this.setState({ 
+      "g-recaptcha-response": value, 
+      "sitekey": value,
+      ...this.state
+    });
   };
 
   handleSubmit = e => {
