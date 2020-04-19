@@ -1,0 +1,35 @@
+.footer {
+    padding: calc(20px + 0.8vw);
+}
+
+.btn-facebook {
+    margin: 5px;
+	color: #fff;
+    background-color: #4C67A1;
+    border-color: #4C67A1;
+}
+.btn-facebook:hover {
+	color: #fff;
+    background-color: #405D9B;
+    border-color: #405D9B;
+}
+.btn-facebook:focus {
+    color: #fff;
+    background-color: none;
+}
+
+.btn-twitter {
+    margin: 5px;
+	color: #fff;
+    background-color: #1B95E0;
+    border-color: #1B95E0;
+}
+.btn-twitter:hover {
+	color: #fff;
+    background-color: rgb(25, 135, 204);
+    border-color: rgb(25, 135, 204);
+}
+.btn-twitter:focus {
+    color: #fff;
+    background-color: none;
+}

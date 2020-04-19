@@ -1,0 +1,21 @@
+.main-layout {
+    margin-top: calc(20px + 2vw);
+    padding-left: calc(15px + 8vw);
+    padding-right: calc(15px + 8vw);
+
+}
+
+
+/* Mostly AboutUs CSS */
+
+.about-us-page h1 {
+    font-size: calc(40px + 1.3vw);
+    margin-bottom: calc(10px + 2vw);
+}
+
+.about-us-page p {
+    color: grey;
+    margin-top: calc(10px + 1.5vw);
+    margin-bottom: calc(10px + 1.5vw);
+    font-size: calc(15px + 0.5vw);
+}

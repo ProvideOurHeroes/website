@@ -6,6 +6,7 @@ import DonationInfo from "../components/index/DonationInfo";
 import OurResources from "../components/index/OurResources";
 import Disclaimer from "../components/index/Disclaimer";
 import Sponsors from "../components/index/Sponsors";
+import Footer from "../components/Footer";
 
 
 const IndexPage = () => (
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <OurResources />
     <Disclaimer />
     <Sponsors />
+    <Footer />
     </div>
 )
 
