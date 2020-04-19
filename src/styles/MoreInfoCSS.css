@@ -7,6 +7,7 @@
 
 
 /* Mostly AboutUs CSS */
+/* these ended up being global lol */
 
 .about-us-page h1 {
     font-size: calc(40px + 1.3vw);
@@ -18,4 +19,14 @@
     margin-top: calc(10px + 1.5vw);
     margin-bottom: calc(10px + 1.5vw);
     font-size: calc(15px + 0.5vw);
+}
+
+.about-us-page a {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+/* Mostly FAQ CSS */
+.email-info {
+    font-style: italic;
 }
