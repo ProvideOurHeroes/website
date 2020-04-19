@@ -81,10 +81,14 @@ class RequestPPE extends React.Component {
           </p>
           <p>
             <label>
-              Organization Name:<br />
-              <input type="text" name="organization_name" onChange={this.handleChange} />
+              Organization Type:<br />
+              <select value="Select Type" name="organization_type" onChange={this.handleChange}>
+                <option value="Hospital">Hospital</option>
+                <option value="School">School</option>
+              </select>
             </label>
           </p>
+          <input type="submit" value="Submit" />
         </form>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
