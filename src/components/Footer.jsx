@@ -17,8 +17,8 @@ export default function Footer(props) {
     <div className="container-fluid footer bg-light">
     <div className="text-center"><h3><strong>Provide Our Heroes </strong></h3></div>
     <div className="socials text-center">
-    <Button onClick={shareFB}  target="_blank" className="btn btn-social btn-facebook"><FaFacebook/> Share On Facebook</Button>
-    <Button onClick={shareTwitter}  target="_blank" className="btn btn-social btn-twitter"><FaTwitter/> Share On Twitter</Button>
+    <Button onClick={shareFB} target="_blank" className="btn btn-social btn-facebook"><FaFacebook/> <div>Share On Facebook</div></Button>
+    <Button onClick={shareTwitter}  target="_blank" className="btn btn-social btn-twitter"><FaTwitter/> <div>Share On Twitter</div></Button>
     </div>
 
     {/* <button type="button" class="btn btn-social btn-facebook btn-md" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://provideourheroes.com&p[images][0]=&p[title]=Title%20Goes%20Here&p[summary]=Description%20goes%20here!" onclick={shareFacebook}><FaFacebook size="25"/> Share on Facebook</button> */}
