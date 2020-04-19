@@ -1,10 +1,11 @@
 import React from "react";
 import "../../styles/MoreInfoCSS.css";
+import current_metrics_image from "../../images/current-metrics/ppe-distribution.png";
 
 export default function CurrentMetricsComponent() {
     return (<div><div className="container about-us-page main-layout">
         <h1><strong>Current Metrics</strong></h1>
-        <img className="img-responsive" src="https://provideourheroes.files.wordpress.com/2020/04/ppe-distribution-2.png?w=2048"></img>
+        <img className="img-responsive" src={current_metrics_image}></img>
         </div>
         <section className="current-metrics-page">
         <div className="container">
