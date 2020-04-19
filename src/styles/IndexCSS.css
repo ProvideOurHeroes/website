@@ -182,10 +182,24 @@ color: rgba(0, 0, 0, 0.6);
 
 /* Mostly CSS for OurResources */
 .resources {
-    padding-top: calc(15px + 5vw);
+    padding-top: calc(2px + 6vw);
 }
 
 .resources-body-padding {
     padding-left: 2em;
     padding-right: 2em;
+}
+
+/* Mostly CSS for Disclaimer */
+.disclaimer {
+    color: white;
+    background-color: #3E69DC;
+    padding: calc(20px + 3vw);
+    padding-left: calc(20px + 5vw);
+    padding-right: calc(20px + 5vw);
+}
+.disclaimer-info {
+    margin-top: calc(5px + 2vw);
+    font-size: calc(15px + 0.5vw);
+    font-style: italic;
 }

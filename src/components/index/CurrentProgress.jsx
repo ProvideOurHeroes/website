@@ -1,8 +1,5 @@
 import React from 'react';
-import { Button } from "react-bootstrap";
 import "../../styles/IndexCSS.css";
-import { ArrowRight } from "react-bootstrap-icons";
-import Favicon from "react-favicon";
 
 export default function CurrentProgress() {
     return (<div>

@@ -1,9 +1,8 @@
 import React from "react";
-import {Button} from "react-bootstrap";
 import "../../styles/IndexCSS.css";
 
 export default function OurResources() {
-    return ( <section>
+    return ( <section style={{marginTop: "calc(2px + 2vw)"}}>
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-6 bgd-gif">

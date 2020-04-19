@@ -4,6 +4,7 @@ import Heading from "../components/index/Heading";
 import CurrentProgress from "../components/index/CurrentProgress"
 import DonationInfo from "../components/index/DonationInfo";
 import OurResources from "../components/index/OurResources";
+import Disclaimer from "../components/index/Disclaimer";
 
 const IndexPage = () => (
     <div>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <DonationInfo />
     <CurrentProgress />
     <OurResources />
+    <Disclaimer />
         <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
