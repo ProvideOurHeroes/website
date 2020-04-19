@@ -47,15 +47,15 @@ class RequestPPE extends React.Component {
         <h1>Hi request</h1>
         <form 
           name="request-ppe"
-          method="post"
+          method="POST"
           action="/confirmed/"
+          netlify-honeypot="true"
           data-netlify="true"
           data-netlify-recaptcha="true"
           onSubmit={this.handleSubmit}
         >
-          <noscript>
-            <p>This form won't work with JavaScript disabled.</p>
-          </noscript>
+          <input type="hidden" name="bot-field" />
+
           <p>
             <label>
               First Name:<br />
