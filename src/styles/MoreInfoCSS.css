@@ -35,3 +35,22 @@
 .email-info {
     font-style: italic;
 }
+
+/* Mostly CurrentMetrics CSS */
+.current-metrics-page {
+    color: white;
+    background-color: #3E69DC;
+    padding: calc(20px + 3vw);
+    padding-left: calc(20px + 5vw);
+    padding-right: calc(20px + 5vw);
+}
+
+.current-metrics-page h2 {
+    font-size: calc(20px + 1vw);
+}
+
+.current-metrics-info {
+    color: white;
+    margin-top: calc(5px + 2vw);
+    font-size: calc(15px + 0.5vw);
+}
