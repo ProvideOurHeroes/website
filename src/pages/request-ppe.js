@@ -230,11 +230,11 @@ class RequestPPE extends React.Component {
               <input type="text" name="extra_info" class="form-control" onChange={this.handleChange} />
             </div>
           </div>
-          {/*<Recaptcha
+          <Recaptcha
             ref="recaptcha"
             sitekey={RECAPTCHA_KEY}
             onChange={this.handleRecaptcha}
-          />*/}
+          />
           <div class="form-group row">
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
