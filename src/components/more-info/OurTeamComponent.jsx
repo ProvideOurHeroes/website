@@ -11,12 +11,12 @@ export default function OurTeamComponent() {
         <div className="row">
         <div className="col-sm">
             <p>
-            {our_team_col1.map((person_name) => <Person name={person_name}/>)}
+            {our_team_col1.map((person_name, index) => <Person key={person_name + index} name={person_name}/>)}
             </p>
         </div>
-        <div class="col-sm">
+        <div className="col-sm">
             <p>
-            {our_team_col2.map((person_name) => <Person name={person_name}/>)}
+            {our_team_col2.map((person_name, index) => <Person key={person_name + index} name={person_name}/>)}
             </p>
         </div>
         </div>
